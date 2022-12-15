@@ -9,6 +9,7 @@ public class ConcatenationOfArray {
             ans[i + a] = nums[i];
         }
         int c = 0;
+        int d = 0;
         return ans;
     }
 }
