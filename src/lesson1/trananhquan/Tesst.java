@@ -1,16 +1,22 @@
 package lesson1.trananhquan;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
+
 public class Tesst {
     public static void main(String[] args) {
-        System.out.println(1/2);
+        int a = 60;
+        int b = 13;
+        int c;
+        c = b ^ a;
+        System.out.println(c);
+
+
     }
 
-    public static void f(int n) {
-        if (n>9) {
-            return;
-        }
-        System.out.println("start: " + n);
-        f(n+1);
-        System.out.println("end: " + n);
-    }
+
+
+
 }
